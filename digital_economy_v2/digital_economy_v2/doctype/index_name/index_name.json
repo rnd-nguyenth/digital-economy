@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:ten_chi_so",
+ "creation": "2024-08-28 09:14:14.391676",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ten_chi_so",
+  "bo_chi_so",
+  "loai_chi_so",
+  "stt"
+ ],
+ "fields": [
+  {
+   "fieldname": "ten_chi_so",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ch\u1ec9 s\u1ed1",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "loai_chi_so",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Lo\u1ea1i ch\u1ec9 s\u1ed1",
+   "options": "H\u1ea1 t\u1ea7ng\nPh\u1ed5 c\u1eadp\nPh\u1ed5 c\u1eadp kinh t\u1ebf s\u1ed1\nHi\u1ec7u qu\u1ea3 kinh t\u1ebf s\u1ed1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bo_chi_so",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "B\u1ed9 ch\u1ec9 s\u1ed1",
+   "options": "N\u1ec1n t\u1ea3ng\nICT\nLogistics",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stt",
+   "fieldtype": "Int",
+   "label": "S\u1ed1 th\u1ee9 t\u1ef1"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-28 14:46:42.831933",
+ "modified_by": "Administrator",
+ "module": "Digital Economy V2",
+ "name": "Index Name",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
