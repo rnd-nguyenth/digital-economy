@@ -15,18 +15,21 @@
   "section_nen_tang_chinh",
   "bang_nen_tang",
   "tong_diem_nen_tang",
+  "tong_diem_co_so_nen_tang",
   "section_nen_tang_thanh_phan",
   "bang_nen_tang_thanh_phan",
   "tab_ict",
   "section_ict_chinh",
   "bang_ict",
   "tong_diem_ict",
+  "tong_diem_co_so_ict",
   "section_ict_thanh_phan",
   "bang_ict_thanh_phan",
   "tab_logistics",
   "section_logistics_chinh",
   "bang_logistics",
   "tong_diem_logistics",
+  "tong_diem_co_so_logistics",
   "section_logistics_thanh_phan",
   "bang_logistics_thanh_phan"
  ],
@@ -154,12 +157,30 @@
    "fieldname": "bang_logistics_thanh_phan",
    "fieldtype": "Table",
    "options": "Logistics Sub-Index"
+  },
+  {
+   "fieldname": "tong_diem_co_so_nen_tang",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
+   "precision": "0"
+  },
+  {
+   "fieldname": "tong_diem_co_so_ict",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
+   "precision": "0"
+  },
+  {
+   "fieldname": "tong_diem_co_so_logistics",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
+   "precision": "0"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-28 15:41:43.684917",
+ "modified": "2024-08-29 10:21:15.561502",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Digital Economy Index",
