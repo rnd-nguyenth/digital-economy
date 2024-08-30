@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "tab_thong_tin",
   "quy",
   "title",
   "column_break_fthz",
@@ -14,21 +15,27 @@
   "tab_nen_tang",
   "section_nen_tang_chinh",
   "bang_nen_tang",
+  "section_break_obiu",
   "tong_diem_nen_tang",
+  "column_break_uigx",
   "tong_diem_co_so_nen_tang",
   "section_nen_tang_thanh_phan",
   "bang_nen_tang_thanh_phan",
   "tab_ict",
   "section_ict_chinh",
   "bang_ict",
+  "section_break_vgrn",
   "tong_diem_ict",
+  "column_break_vcpi",
   "tong_diem_co_so_ict",
   "section_ict_thanh_phan",
   "bang_ict_thanh_phan",
   "tab_logistics",
   "section_logistics_chinh",
   "bang_logistics",
+  "section_break_bgsd",
   "tong_diem_logistics",
+  "column_break_meeb",
   "tong_diem_co_so_logistics",
   "section_logistics_thanh_phan",
   "bang_logistics_thanh_phan"
@@ -37,15 +44,19 @@
   {
    "fieldname": "quy",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Qu\u00fd",
    "options": "Q1\nQ2\nQ3\nQ4",
+   "reqd": 1,
    "sort_options": 1
   },
   {
    "fieldname": "nam",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "N\u0103m",
    "options": "2022\n2023\n2024\n2025",
+   "reqd": 1,
    "sort_options": 1
   },
   {
@@ -74,7 +85,8 @@
    "fieldname": "tong_diem_nen_tang",
    "fieldtype": "Float",
    "label": "T\u1ed5ng \u0111i\u1ec3m",
-   "precision": "2"
+   "precision": "2",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_fthz",
@@ -105,7 +117,8 @@
    "fieldname": "tong_diem_ict",
    "fieldtype": "Float",
    "label": "T\u1ed5ng \u0111i\u1ec3m",
-   "precision": "2"
+   "precision": "2",
+   "read_only": 1
   },
   {
    "fieldname": "section_nen_tang_thanh_phan",
@@ -146,7 +159,8 @@
    "fieldname": "tong_diem_logistics",
    "fieldtype": "Float",
    "label": "T\u1ed5ng \u0111i\u1ec3m",
-   "precision": "2"
+   "precision": "2",
+   "read_only": 1
   },
   {
    "fieldname": "section_logistics_thanh_phan",
@@ -162,25 +176,57 @@
    "fieldname": "tong_diem_co_so_nen_tang",
    "fieldtype": "Float",
    "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
-   "precision": "0"
+   "precision": "0",
+   "read_only": 1
   },
   {
    "fieldname": "tong_diem_co_so_ict",
    "fieldtype": "Float",
    "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
-   "precision": "0"
+   "precision": "0",
+   "read_only": 1
   },
   {
    "fieldname": "tong_diem_co_so_logistics",
    "fieldtype": "Float",
    "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
-   "precision": "0"
+   "precision": "0",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tab_thong_tin",
+   "fieldtype": "Tab Break",
+   "label": "Th\u00f4ng tin"
+  },
+  {
+   "fieldname": "section_break_obiu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_uigx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vgrn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vcpi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bgsd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_meeb",
+   "fieldtype": "Column Break"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-29 10:21:15.561502",
+ "modified": "2024-08-30 08:52:23.670317",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Digital Economy Index",

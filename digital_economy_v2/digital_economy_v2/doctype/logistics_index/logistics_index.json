@@ -11,6 +11,7 @@
   "dat_duoc",
   "diem_co_so",
   "diem_quy_doi",
+  "column_break_ebrt",
   "stt",
   "loai_chi_so",
   "b\u1ed9_ch\u1ec9_s\u1ed1"
@@ -24,7 +25,8 @@
    "in_list_view": 1,
    "label": "Ch\u1ec9 s\u1ed1",
    "link_filters": "[[\"Index Name\",\"bo_chi_so\",\"=\",\"Logistics\"]]",
-   "options": "Index Name"
+   "options": "Index Name",
+   "set_only_once": 1
   },
   {
    "columns": 1,
@@ -43,19 +45,20 @@
    "precision": "2"
   },
   {
-   "columns": 2,
+   "columns": 1,
    "fieldname": "diem_co_so",
    "fieldtype": "Int",
    "in_list_view": 1,
    "label": "\u0110i\u1ec3m c\u01a1 s\u1edf"
   },
   {
-   "columns": 2,
+   "columns": 1,
    "fieldname": "diem_quy_doi",
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "\u0110i\u1ec3m quy \u0111\u1ed5i",
-   "precision": "2"
+   "precision": "2",
+   "read_only": 1
   },
   {
    "fetch_from": "ten_chi_so.stt",
@@ -76,12 +79,16 @@
    "fieldtype": "Select",
    "label": "B\u1ed9 ch\u1ec9 s\u1ed1",
    "options": "N\u1ec1n t\u1ea3ng\nICT\nLogistics"
+  },
+  {
+   "fieldname": "column_break_ebrt",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-08-28 15:19:12.093585",
+ "modified": "2024-08-30 08:51:37.524250",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Logistics Index",

@@ -16,7 +16,8 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n",
-   "options": "Sub-Index Name"
+   "options": "Sub-Index Name",
+   "set_only_once": 1
   },
   {
    "fieldname": "gia_tri",
@@ -29,7 +30,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-08-28 14:02:55.252235",
+ "modified": "2024-08-30 08:32:45.371000",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "ICT Sub-Index",
