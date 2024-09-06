@@ -1,0 +1,254 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2024-09-06 08:15:58.577127",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_thong_tin",
+  "quy",
+  "title",
+  "column_break_zjow",
+  "nam",
+  "thoi_gian",
+  "tab_nen_tang",
+  "section_nen_tang_chinh",
+  "bang_nen_tang",
+  "section_break_iuvo",
+  "tong_diem_nen_tang",
+  "column_break_kgaa",
+  "tong_diem_co_so_nen_tang",
+  "section_nen_tang_thanh_phan",
+  "bang_nen_tang_thanh_phan",
+  "tab_ict",
+  "section_ict_chinh",
+  "bang_ict",
+  "section_break_zzpv",
+  "tong_diem_ict",
+  "column_break_xszm",
+  "tong_diem_co_so_ict",
+  "section_ict_thanh_phan",
+  "bang_ict_thanh_phan",
+  "tab_logistics",
+  "section_logistics_chinh",
+  "bang_logistics",
+  "section_break_krwz",
+  "tong_diem_logistics",
+  "column_break_xovw",
+  "tong_diem_co_so_logistics",
+  "section_logistics_thanh_phan",
+  "bang_logistics_thanh_phan"
+ ],
+ "fields": [
+  {
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4",
+   "reqd": 1,
+   "sort_options": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "title",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_zjow",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025",
+   "reqd": 1,
+   "sort_options": 1
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "tab_thong_tin",
+   "fieldtype": "Tab Break",
+   "label": "Th\u00f4ng tin"
+  },
+  {
+   "fieldname": "tab_nen_tang",
+   "fieldtype": "Tab Break",
+   "label": "Ch\u1ec9 s\u1ed1 N\u1ec1n t\u1ea3ng"
+  },
+  {
+   "fieldname": "section_nen_tang_chinh",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 ch\u00ednh"
+  },
+  {
+   "fieldname": "bang_nen_tang",
+   "fieldtype": "Table",
+   "options": "Foundation Index"
+  },
+  {
+   "fieldname": "section_break_iuvo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "tong_diem_nen_tang",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_kgaa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tong_diem_co_so_nen_tang",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
+   "precision": "0",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_nen_tang_thanh_phan",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n"
+  },
+  {
+   "fieldname": "bang_nen_tang_thanh_phan",
+   "fieldtype": "Table",
+   "options": "Foundation Sub-Index"
+  },
+  {
+   "fieldname": "tab_ict",
+   "fieldtype": "Tab Break",
+   "label": "Ch\u1ec9 s\u1ed1 ICT"
+  },
+  {
+   "fieldname": "section_ict_chinh",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 ch\u00ednh"
+  },
+  {
+   "fieldname": "bang_ict",
+   "fieldtype": "Table",
+   "options": "ICT Index"
+  },
+  {
+   "fieldname": "section_break_zzpv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tong_diem_ict",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_xszm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tong_diem_co_so_ict",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
+   "precision": "0",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_ict_thanh_phan",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n"
+  },
+  {
+   "fieldname": "bang_ict_thanh_phan",
+   "fieldtype": "Table",
+   "options": "ICT Sub-Index"
+  },
+  {
+   "fieldname": "tab_logistics",
+   "fieldtype": "Tab Break",
+   "label": "Ch\u1ec9 s\u1ed1 Logistics"
+  },
+  {
+   "fieldname": "section_logistics_chinh",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 ch\u00ednh"
+  },
+  {
+   "fieldname": "bang_logistics",
+   "fieldtype": "Table",
+   "options": "Logistics Index"
+  },
+  {
+   "fieldname": "section_break_krwz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tong_diem_logistics",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_xovw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tong_diem_co_so_logistics",
+   "fieldtype": "Float",
+   "label": "T\u1ed5ng \u0111i\u1ec3m c\u01a1 s\u1edf",
+   "precision": "0",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_logistics_thanh_phan",
+   "fieldtype": "Section Break",
+   "label": "Ch\u1ec9 s\u1ed1 th\u00e0nh ph\u1ea7n"
+  },
+  {
+   "fieldname": "bang_logistics_thanh_phan",
+   "fieldtype": "Table",
+   "options": "Logistics Sub-Index"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-06 08:47:43.173534",
+ "modified_by": "Administrator",
+ "module": "Digital Economy",
+ "name": "Digital Economy Index",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
