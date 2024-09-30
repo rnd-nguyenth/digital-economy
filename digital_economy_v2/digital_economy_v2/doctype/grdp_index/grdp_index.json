@@ -23,6 +23,7 @@
   "kts_tong",
   "section_break_qyib",
   "ty_trong_kts_loi",
+  "ty_trong_kts_logistics",
   "column_break_cdtu",
   "ty_trong_kts_lan_toa",
   "column_break_jsxz",
@@ -219,12 +220,20 @@
    "fieldname": "du_lieu_nam",
    "fieldtype": "Check",
    "label": "D\u1eef li\u1ec7u n\u0103m"
+  },
+  {
+   "fieldname": "ty_trong_kts_logistics",
+   "fieldtype": "Percent",
+   "hidden": 1,
+   "label": "T\u1ef7 tr\u1ecdng KTS ng\u00e0nh Logistics",
+   "precision": "2",
+   "read_only": 1
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-27 15:29:00.060283",
+ "modified": "2024-09-30 10:01:40.633848",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "GRDP Index",

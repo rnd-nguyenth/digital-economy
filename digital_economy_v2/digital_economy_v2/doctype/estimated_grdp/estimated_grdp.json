@@ -12,16 +12,18 @@
   "du_lieu_nam",
   "section_break_ebgy",
   "nam",
-  "title",
   "column_break_wyed",
   "quy",
-  "thoi_gian",
   "section_break_alcw",
   "bang_uoc_tinh",
   "section_break_nubt",
   "thue_san_pham_tru_tro_cap_san_pham",
   "column_break_alxx",
-  "tong_grdp_uoc_tinh"
+  "tong_grdp_uoc_tinh",
+  "section_break_cnvt",
+  "title",
+  "column_break_nvns",
+  "thoi_gian"
  ],
  "fields": [
   {
@@ -107,12 +109,20 @@
   {
    "fieldname": "section_break_alcw",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_cnvt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nvns",
+   "fieldtype": "Column Break"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-27 17:42:33.994162",
+ "modified": "2024-09-30 10:29:16.206655",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Estimated GRDP",
