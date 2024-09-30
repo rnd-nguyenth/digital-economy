@@ -47,7 +47,6 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Qu\u00fd",
-   "mandatory_depends_on": "eval: !doc.du_lieu_nam",
    "options": "\nQ1\nQ2\nQ3\nQ4",
    "sort_options": 1
   },
@@ -231,7 +230,7 @@
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-30 09:16:38.595284",
+ "modified": "2024-09-30 10:34:18.585334",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Digital Economy Index",
