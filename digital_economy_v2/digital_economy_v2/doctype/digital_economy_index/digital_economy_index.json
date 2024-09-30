@@ -7,10 +7,13 @@
  "engine": "InnoDB",
  "field_order": [
   "tab_thong_tin",
-  "quy",
+  "html_nkxp",
+  "du_lieu_nam",
+  "section_break_eabw",
+  "nam",
   "title",
   "column_break_fthz",
-  "nam",
+  "quy",
   "thoi_gian",
   "tab_nen_tang",
   "section_nen_tang_chinh",
@@ -42,12 +45,13 @@
  ],
  "fields": [
   {
+   "depends_on": "eval: !doc.du_lieu_nam",
    "fieldname": "quy",
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Qu\u00fd",
-   "options": "Q1\nQ2\nQ3\nQ4",
-   "reqd": 1,
+   "mandatory_depends_on": "eval: !doc.du_lieu_nam",
+   "options": "\nQ1\nQ2\nQ3\nQ4",
    "sort_options": 1
   },
   {
@@ -55,7 +59,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "N\u0103m",
-   "options": "2022\n2023\n2024\n2025",
+   "options": "\n2022\n2023\n2024\n2025",
    "reqd": 1,
    "sort_options": 1
   },
@@ -63,7 +67,7 @@
    "fieldname": "title",
    "fieldtype": "Data",
    "hidden": 1,
-   "label": "title",
+   "label": "Title",
    "unique": 1
   },
   {
@@ -221,12 +225,27 @@
   {
    "fieldname": "column_break_meeb",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_nkxp",
+   "fieldtype": "HTML",
+   "options": "<p>Trong tr\u01b0\u1eddng h\u1ee3p d\u1eef li\u1ec7u nh\u1eadp l\u00e0 d\u1eef li\u1ec7u c\u1ee7a n\u0103m, ch\u1ecdn v\u00e0o \u00f4 <b><u>D\u1eef li\u1ec7u n\u0103m</u></b> b\u00ean d\u01b0\u1edbi</p>"
+  },
+  {
+   "fieldname": "section_break_eabw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "du_lieu_nam",
+   "fieldtype": "Check",
+   "label": "D\u1eef li\u1ec7u n\u0103m"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-30 08:52:23.670317",
+ "modified": "2024-09-28 10:18:29.245325",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Digital Economy Index",
@@ -246,7 +265,7 @@
    "write": 1
   }
  ],
- "sort_field": "modified",
+ "sort_field": "thoi_gian",
  "sort_order": "DESC",
  "states": []
 }

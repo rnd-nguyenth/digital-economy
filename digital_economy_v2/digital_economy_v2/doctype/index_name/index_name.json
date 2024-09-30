@@ -10,7 +10,9 @@
   "ten_chi_so",
   "bo_chi_so",
   "loai_chi_so",
-  "stt"
+  "column_break_iviz",
+  "stt",
+  "diem_co_so"
  ],
  "fields": [
   {
@@ -27,27 +29,37 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Lo\u1ea1i ch\u1ec9 s\u1ed1",
-   "options": "H\u1ea1 t\u1ea7ng\nN\u1ec1n t\u1ea3ng\nPh\u1ed5 c\u1eadp kinh t\u1ebf s\u1ed1\nHi\u1ec7u qu\u1ea3 kinh t\u1ebf s\u1ed1",
+   "options": "\nH\u1ea1 t\u1ea7ng\nN\u1ec1n t\u1ea3ng\nPh\u1ed5 c\u1eadp kinh t\u1ebf s\u1ed1\nHi\u1ec7u qu\u1ea3 kinh t\u1ebf s\u1ed1",
    "reqd": 1
   },
   {
    "fieldname": "bo_chi_so",
    "fieldtype": "Select",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "B\u1ed9 ch\u1ec9 s\u1ed1",
-   "options": "N\u1ec1n t\u1ea3ng\nICT\nLogistics",
+   "options": "\nN\u1ec1n t\u1ea3ng\nICT\nLogistics",
    "reqd": 1
   },
   {
    "fieldname": "stt",
    "fieldtype": "Int",
    "label": "S\u1ed1 th\u1ee9 t\u1ef1"
+  },
+  {
+   "fieldname": "diem_co_so",
+   "fieldtype": "Int",
+   "label": "\u0110i\u1ec3m c\u01a1 s\u1edf"
+  },
+  {
+   "fieldname": "column_break_iviz",
+   "fieldtype": "Column Break"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-30 08:36:48.674984",
+ "modified": "2024-09-28 10:00:53.332309",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Index Name",
