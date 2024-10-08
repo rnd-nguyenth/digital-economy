@@ -8,6 +8,11 @@
  "engine": "InnoDB",
  "field_order": [
   "th\u00f4ng_tin_tab",
+  "section_break_cnvt",
+  "title",
+  "column_break_nvns",
+  "thoi_gian",
+  "section_break_znie",
   "html_ojdv",
   "du_lieu_nam",
   "section_break_ebgy",
@@ -19,11 +24,7 @@
   "section_break_nubt",
   "thue_san_pham_tru_tro_cap_san_pham",
   "column_break_alxx",
-  "tong_grdp_uoc_tinh",
-  "section_break_cnvt",
-  "title",
-  "column_break_nvns",
-  "thoi_gian"
+  "tong_grdp_uoc_tinh"
  ],
  "fields": [
   {
@@ -117,12 +118,16 @@
   {
    "fieldname": "column_break_nvns",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_znie",
+   "fieldtype": "Section Break"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-30 10:29:16.206655",
+ "modified": "2024-10-08 08:12:50.295648",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "Estimated GRDP",

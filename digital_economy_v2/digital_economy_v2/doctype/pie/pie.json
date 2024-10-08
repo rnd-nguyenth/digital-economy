@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-04 15:56:48.941980",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "grdp_index",
+  "kts_type",
+  "gia_tri",
+  "du_lieu_nam",
+  "column_break_nkvm",
+  "quy",
+  "nam",
+  "thoi_gian"
+ ],
+ "fields": [
+  {
+   "fieldname": "kts_type",
+   "fieldtype": "Select",
+   "label": "Lo\u1ea1i KTS",
+   "options": "\nKTS l\u00f5i\nKTS lan to\u1ea3"
+  },
+  {
+   "fieldname": "gia_tri",
+   "fieldtype": "Percent",
+   "label": "Gi\u00e1 tr\u1ecb"
+  },
+  {
+   "fieldname": "thoi_gian",
+   "fieldtype": "Date",
+   "label": "Th\u1eddi gian"
+  },
+  {
+   "fieldname": "grdp_index",
+   "fieldtype": "Link",
+   "label": "GRDP Index",
+   "options": "GRDP Index"
+  },
+  {
+   "fieldname": "column_break_nkvm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quy",
+   "fieldtype": "Select",
+   "label": "Qu\u00fd",
+   "options": "\nQ1\nQ2\nQ3\nQ4"
+  },
+  {
+   "fieldname": "nam",
+   "fieldtype": "Select",
+   "label": "N\u0103m",
+   "options": "\n2022\n2023\n2024\n2025"
+  },
+  {
+   "default": "0",
+   "fieldname": "du_lieu_nam",
+   "fieldtype": "Check",
+   "label": "D\u1eef li\u1ec7u n\u0103m"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-05 10:22:01.023990",
+ "modified_by": "Administrator",
+ "module": "Digital Economy V2",
+ "name": "Pie",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

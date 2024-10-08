@@ -6,6 +6,11 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "section_break_wduj",
+  "title",
+  "column_break_tbir",
+  "thoi_gian",
+  "section_break_jsfs",
   "html_vzfv",
   "du_lieu_nam",
   "section_break_knud",
@@ -13,14 +18,11 @@
   "chi_so_grdp_uoc_tinh",
   "column_break_vkko",
   "quy",
-  "he_so_chuyen_doi",
+  "bien_dau_vao",
   "section_break_tarp",
+  "he_so_chuyen_doi",
   "bang_va_ict",
-  "tong_va",
-  "section_break_wduj",
-  "title",
-  "column_break_tbir",
-  "thoi_gian"
+  "tong_va"
  ],
  "fields": [
   {
@@ -51,6 +53,7 @@
    "fieldname": "he_so_chuyen_doi",
    "fieldtype": "Float",
    "label": "H\u1ec7 s\u1ed1 chuy\u1ec3n \u0111\u1ed5i",
+   "placeholder": "H\u1ec7 s\u1ed1 \u03b2",
    "precision": "9"
   },
   {
@@ -107,12 +110,22 @@
    "fieldtype": "Check",
    "in_standard_filter": 1,
    "label": "D\u1eef li\u1ec7u n\u0103m"
+  },
+  {
+   "fieldname": "bien_dau_vao",
+   "fieldtype": "Link",
+   "label": "Bi\u1ebfn \u0111\u1ea7u v\u00e0o",
+   "options": "Input Variable"
+  },
+  {
+   "fieldname": "section_break_jsfs",
+   "fieldtype": "Section Break"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-27 16:09:59.102925",
+ "modified": "2024-10-08 08:11:46.547595",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "VA ICT",

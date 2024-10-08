@@ -7,6 +7,11 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "section_break_yhyk",
+  "title",
+  "column_break_ggzu",
+  "thoi_gian",
+  "section_break_cvdp",
   "html_wuzn",
   "du_lieu_nam",
   "section_break_wvvo",
@@ -28,10 +33,6 @@
   "ty_trong_kts_lan_toa",
   "column_break_jsxz",
   "ty_trong_kts_tong",
-  "section_break_yhyk",
-  "title",
-  "column_break_ggzu",
-  "thoi_gian",
   "tab_bang_uoc_tinh",
   "grdp_bang_uoc_tinh",
   "tong_grdp_uoc_tinh",
@@ -219,6 +220,8 @@
    "default": "0",
    "fieldname": "du_lieu_nam",
    "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "D\u1eef li\u1ec7u n\u0103m"
   },
   {
@@ -228,12 +231,16 @@
    "label": "T\u1ef7 tr\u1ecdng KTS ng\u00e0nh Logistics",
    "precision": "2",
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_cvdp",
+   "fieldtype": "Section Break"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-30 10:01:40.633848",
+ "modified": "2024-10-08 08:11:03.009319",
  "modified_by": "Administrator",
  "module": "Digital Economy V2",
  "name": "GRDP Index",
