@@ -5,7 +5,9 @@ app_description = "Building dashboard for Digital Economy Project"
 app_email = "nguyenth@osbholding.com"
 app_license = "mit"
 
-fixtures = [{"doctype": "Client Script", "filters": [["module", "in", ("Digital Economy V2")]]}]
+fixtures = [
+    {"doctype": "Client Script", "filters": [["module", "in", ("Digital Economy V2")]]},
+    {"doctype": "Server Script", "filters": [["module", "in", ("Digital Economy V2")]]}]
 
 # Apps
 # ------------------
